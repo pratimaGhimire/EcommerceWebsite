@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <title>Contact me</title>
+  </head>
+  <body>
+    <!-- Navigation Section -->
+
+    <nav>
+      <a class="logo">Aryan Store</a>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="products.html"> Products </a></li>
+          <li><a href="blog.html"> Blogs </a></li>
+          <li class="active"><a href="contact.html"> Contact</a></li>
+          <li><a href="research.html"> Research</a></li>
+        </ul>
+      </div>
+      <img class="user" src="images/100booktoRead.jpg" />
+    </nav>
+
+    <!-- End Navigation Section -->
+    <section id="contact">
+      <div class="contact-box">
+        <div class="contact-links">
+          <h2>CONTACT</h2>
+          <div class="links">
+            <div class="link">
+              <a><img src="images/linkedin.png" alt="linkedin" /></a>
+            </div>
+            <div class="link">
+              <a><img src="images/github.png" alt="github" /></a>
+            </div>
+
+            <div class="link">
+              <a><img src="images/email.png" alt="email" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form>
+            <div class="form-item">
+              <input type="text" name="sender" id="name" required />
+              <label>Name:</label>
+            </div>
+            <div class="form-item">
+              <input type="text" name="email" id="email" required />
+              <label>Email:</label>
+            </div>
+            <div class="form-item">
+              <textarea
+                class=""
+                name="message"
+                id="message"
+                required
+              ></textarea>
+              <label>Message:</label>
+            </div>
+            <button class="submit-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &copy; 2022 Reserved.</p>
+    </footer>
+    <script>
+      const name = document.getElementById("name");
+      console.log(name.value);
+    </script>
+  </body>
+</html>

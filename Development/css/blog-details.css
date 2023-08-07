@@ -1,0 +1,115 @@
+.main {
+  display: flex;
+}
+.wrapper {
+  padding: 0 0 0 0;
+  padding: 0 12% 0 12%;
+}
+.nav {
+  min-width: 20ch;
+  height: 100%;
+  display: inline-block;
+  flex-grow: 1;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.title {
+  padding-top: 2rem;
+  color: #4c74c9;
+  font-size: 1.6rem;
+}
+.nav h2 {
+  padding-left: 7%;
+  font-size: 1.5rem;
+}
+.nav ul {
+  list-style: none;
+}
+.nav ul li {
+  font-size: 1.2rem;
+  padding: 5px 5px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: green;
+}
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 2rem;
+  text-align: justify;
+}
+span {
+  color: #00a1e1;
+}
+#addComment:hover {
+  background-color: green;
+  color: white;
+}
+
+label,
+input,
+textarea {
+  font-family: sans-serif;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  color: black;
+  opacity: 0.6;
+  pointer-events: none;
+  user-select: none;
+}
+
+input,
+textarea {
+  width: 100%;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+input:focus + label,
+input:valid + label,
+textarea:focus + label,
+input:valid + text {
+  color: black;
+  top: -20px;
+  transition: all 0.225s ease;
+}
+
+.submit-btn {
+  display: block;
+  padding: 12px 20px;
+  margin: 2px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.1, 1.1);
+}
+#commentMessage {
+  margin: 45px 200px;
+}
+.commentBlock {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #cccc;
+  margin: 10px;
+}
+.commentHeading {
+  font-weight: bold;
+}

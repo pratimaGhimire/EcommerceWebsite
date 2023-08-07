@@ -1,0 +1,118 @@
+.home-banner {
+  margin-top: 2rem;
+  display: flex;
+  height: auto;
+}
+
+.home-banner a {
+  text-decoration: none;
+}
+.banner-right {
+  weight: 40%;
+}
+.banner-left {
+  width: 70%;
+}
+.banner-title {
+  padding: 2rem;
+  font-famaily: ArimaMadurai;
+  font-weight: bold;
+  font-size: 60px;
+}
+.banner-body {
+  padding: 2rem;
+  font-size: 25px;
+  font-weight: 600;
+}
+.banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  background: none;
+  border: none;
+  cursor: ponter;
+  padding: 1rem;
+  border: 2px solid green;
+  transition: all 0.2s ease-out;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 28px;
+  animation: bounceIn 5s infinite;
+}
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.banner-button:hover {
+  background: green;
+  color: white;
+  shadow: 2px 2px solid grey;
+}
+.banner-image {
+  height: 70%;
+  width: 100%;
+}
+.content {
+}
+
+.title {
+  margin-top: -14rem;
+  font-size: 30px;
+  padding: 2rem;
+  font-weight: 700;
+}
+.books {
+  margin: 10px 25px;
+}
+
+.book {
+  padding: 15px;
+  border-radius: 20px;
+  background: #cbb5e2;
+  margin-bottom: 30px;
+  display: flex;
+}
+.book:nth-of-type(2) {
+  background-color: #fbadaf;
+}
+.book:nth-of-type(3) {
+  background-color: #a4e0eb;
+}
+.book:nth-of-type(4) {
+  background-color: #fdca95;
+}
+.book-title {
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.book-img {
+  height: 25rem;
+}
+.book-content {
+  padding: 5px 20px;
+  text-align: justify;
+  font-size: 1.6rem;
+}
+.book-body {
+  text-indent: 50px;
+}
+.seemore {
+  font-size: 18px;
+}
